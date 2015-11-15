@@ -1,0 +1,6 @@
+speed 5000
+h
+erase
+loadbin output/sensor_knock.bin, 0x200000
+rnh
+exit

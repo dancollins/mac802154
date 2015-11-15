@@ -1,0 +1,84 @@
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Other outputs we don't want
+*.map
+*.lst
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.hex
+*.bin
+
+# gtags
+GPATH
+GRTAGS
+GSYMS
+GTAGS
+
+# Emacs
+*~
+\#*\#
+.\#*
+/.emacs.desktop
+/.emacs.desktop.lock
+auto-save-list
+tramp
+
+# Test system
+lib/test/tests
+aes_calculator/aes_calc
+
+
+#
+# Android
+#
+#built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Windows thumbnail db
+Thumbs.db
+
+# OSX files
+.DS_Store
+
+# Eclipse project files
+.classpath
+.project
+
+# Android Studio
+*.iml
+.idea
+#.idea/workspace.xml - remove # and delete .idea if it better suit your needs.
+.gradle
+build/
+
+#NDK
+obj/
